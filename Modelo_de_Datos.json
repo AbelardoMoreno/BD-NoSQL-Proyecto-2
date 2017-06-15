@@ -1,0 +1,34 @@
+criaturas={
+    _id: "identificador de criatura",
+	nombre: "nombre criatura",
+	nombre_original: "nombre original criatura",
+	
+	clasificacion: "clasificacion del ministerio de magia(beast, being, spirit)",
+	
+	tipo:"ave, criatura, bestia, reptil, humanoide, aracnido, duende, insecto, demonio, espiritu",
+	
+	alimentacion:["de que se alimenta"],
+	region:["lugar donde se puede encontrar"],
+	
+	designacion:"designacion del dpto de regulacion y control(X,XX,XXX,XXXX)",
+	
+	reproduccion:"como se reproduce",
+	funcion:"para que fueron creados",
+	tiempo_de_vida: "tiempo de vida promedio(en meses)",
+	habitos: ["si se esconden, cuando salen"],
+	caracteristicas: [{
+						apariencia:"como se ve",
+						tamaño:"cuanto mide",
+						adiestrable:"si es adiestrable",
+						venenosa:"si es venenosa",
+						mordida:"efectos de la mordida",
+						propiedades:["curativas", "emotivas", "etc"],
+						olor:"cual es su olor",
+						color:"colores"			
+						}]		
+	otros:[{
+			lengua:"que lengua hablan",
+			habilidades_unicas:"que habilidades tienen",
+			otros:"detalles extra de la criatura"
+			}]
+}
